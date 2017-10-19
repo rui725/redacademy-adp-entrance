@@ -1,0 +1,53 @@
+/*
+	Author: Rui Rafael Rosillas
+	GitHub: rui725
+	Date Created: 10/19/2017
+*/
+
+.jumbotron{
+	text-align:center;
+
+}
+
+#score{
+	text-align:right;
+}
+
+#message{
+	height:80%;
+	width:100%;
+}
+
+
+div#res{
+	width:80%;
+	height:250px;
+	font-size:45px;
+	text-align:center;
+}
+
+
+
+button#back{
+	text-align:left;
+	float:left;
+}
+
+
+div#ans{
+	width:100%;
+	padding: 0px 2px;
+	text-align:center;
+}
+div#ans button{
+	margin-bottom:0.5px;
+	text-align:center;
+	width:45%;
+	white-space:normal;
+	height:100px;
+}
+
+#quiz{
+	height:100px;
+
+}
