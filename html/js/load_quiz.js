@@ -38,6 +38,14 @@ function change(qnum,q,ans,i){
 		i.className = "btn btn-danger";
 	}
 	
+	// assigns the buttons 
+	buttons = document.getElementsByClassName("btn btn-primary");
+	
+	//disables buttons
+	for (i = 0;i<buttons.length; i ++){
+		buttons[i].disabled = true;
+	}
+	
 	//checks if it has reached all the questions in the quiz, delays for 2 seconds and goes to the next question or the result view
 	//Note: resets the div#alert element
 	if (q==totalq){
