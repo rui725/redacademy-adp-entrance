@@ -20,9 +20,10 @@
 		<!-- Load javascripts and jQuery-->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 		<script src="js/load_quiz.js"></script>
+		
 	</head>
 	<!-- body loads function from js -->
-	<body onload="welcome();">
+	<body onload="setTimeout(function(){welcome();}, 1000);">
 	
 		<!-- div for alerts -->
 		<div id="alert"></div>
@@ -30,5 +31,6 @@
 		<!-- loads all the views -->
 		<div id="message">
 		</div>
+		
 	</body>
 </html>

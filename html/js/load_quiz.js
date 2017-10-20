@@ -11,8 +11,10 @@ var score = 0;
 var totalq = 0;
 var totalc = 0;
 
+var jsonFileLink = "https://raw.githubusercontent.com/rui725/redacademy-adp-entrance/master/src/quiz.json" 
+
 //function to read json file
-$.getJSON("../src/quiz.json", function(text) {
+$.getJSON(jsonFileLink, function(text) {
 	 json = text['quizzes'];
 });
 
